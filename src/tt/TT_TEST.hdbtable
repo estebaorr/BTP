@@ -1,0 +1,7 @@
+COLUMN TABLE "CLIENTE" (
+        ID INTEGER PRIMARY KEY,
+        Nombre VARCHAR(50) NOT NULL,
+        Apellido VARCHAR(50),
+        Telefono VARCHAR(40) NOT NULL
+       
+);

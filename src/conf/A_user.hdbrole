@@ -1,0 +1,15 @@
+{
+  "role": {
+    "name": "A_user",
+    "schema_privileges": [
+      {
+        "privileges": [
+          "ALTER",
+          "SELECT",
+          "EXECUTE",
+          "CREATE ANY"
+        ]
+      }
+    ]
+  }
+}

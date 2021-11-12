@@ -1,0 +1,12 @@
+PROCEDURE "LoadExcel"(IN ide INTEGER, IN nombre varchar(50), IN apellido varchar(50),IN telefono varchar(40) )
+   LANGUAGE SQLSCRIPT
+   SQL SECURITY INVOKER
+   --DEFAULT SCHEMA <default_schema_name>
+   --READS SQL DATA 
+   AS
+BEGIN
+   /*************************************
+       Write your procedure logic
+   *************************************/
+   INSERT INTO "Cliente" VALUES( ide,nombre,apellido,telefono);
+END
