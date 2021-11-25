@@ -4,5 +4,6 @@ COLUMN TABLE HOTEL4(
   address VARCHAR(40) NOT NULL,
   city VARCHAR(30) NOT NULL,
   state VARCHAR(2) NOT NULL,
-  zip VARCHAR(6)
+  zip VARCHAR(6),
+  camcio VARCHAR(7)
 );
